@@ -1,13 +1,30 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+    font-family: 'Darker Grotesque';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #E9F2F9;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Darker Grotesque - Medium';
+  src: local('Darker Grotesque - Medium') url(./fonts/DarkerGrotesque-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Darker Grotesque - Regular';
+  src: local('Darker Grotesque - Regular') url(./fonts/DarkerGrotesque-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Darker Grotesque - Light';
+  src: local('Darker Grotesque - Light') url(./fonts/DarkerGrotesque-Light.ttf);
 }
