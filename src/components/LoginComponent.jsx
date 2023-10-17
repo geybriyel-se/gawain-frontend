@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./LoginComponent.css";
+import "./TodoApp.css";
 import { useNavigate } from "react-router-dom";
 
 export default function LoginComponent() {
@@ -24,8 +24,8 @@ export default function LoginComponent() {
         <div className="page">
             <div className="leftPanel">
                 <div className="title">
-                    <h1>gawain</h1>
-                    <h2>by elle</h2>
+                    <h1 id="logo-title">gawain</h1>
+                    <h2 id="logo-subtitle">by elle</h2>
                 </div>
             </div>
             <div className="rightPanel">
@@ -45,8 +45,8 @@ export default function LoginComponent() {
                             <input type="password" name="password" placeholder="Password" value={password} onChange={handlePassword}></input>
                         </div>
                     </div>
-                    <div className="submit">
-                        <button type="submit" name="submit" onClick={handleSubmit}>Login</button>
+                    <div className="submitButton">
+                        <button className="submit" type="submit" name="submit" onClick={handleSubmit}>Login</button>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,274 @@
+.page {
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+}
+
+.leftPanel {
+    /* border: 5px black solid; */
+    
+    flex: 1;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 150px;
+    margin-left: 130px;
+    margin-top: 35px;
+}
+
+#logo-title {
+    color: #1B325F;
+    font-size: 80px;
+    line-height: 10px;
+    font-weight: 500;
+}
+
+#logo-subtitle {
+    color: #1B325F;
+    font-size: 30px;
+    line-height: 0px;
+    margin-top: -0.5em;
+    margin-left: 4.4em;
+    font-weight: 400;
+}
+
+.rightPanel {
+    /* border: 5px black solid; */
+    flex: 1;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    height: 460px;
+    width: 350px;
+    border: 1px solid #D9D9D9;
+    box-shadow: 7px 9px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding-top: 20px;
+}
+
+.formTitlePanel {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.formTitle {
+    font-size: 28px;
+    font-weight: 500;
+    color: #1E1E1E;
+    line-height: 10px;
+}
+
+.formSubtitle {
+    color: #727272;
+    font-size: 18px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+input {
+    height: 35px;
+    width: 240px;
+    border-radius: 20px;
+    border: none;
+    text-indent: 15px;
+    font-family: 'Darker Grotesque';
+    font-size: 18px;
+    /* padding: 1px 2px; */
+}
+
+.submit {
+    height: 35px;
+    width: 175px;
+    background: #1B325F;
+    border-radius: 50px;
+    font-family: 'Darker Grotesque';
+    color: #E9F2F9;
+    font-size: 20px;
+    border: none;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.logoImg {
+    width: 80px;
+}
+
+/********************************
+ *      WELCOME COMPONENT       *
+ ********************************/
+
+.welcomeContainer {
+    position: absolute;
+    /* border: black solid 2px; */
+    color: #59595A;
+    margin: 200px 400px;
+    padding: 35px 80px;
+    width: 450px;
+    background: #FFFFFF;
+    box-shadow: 7px 9px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+#welcomeHello {
+    font-size: 70px;
+    line-height: 10px;
+    font-weight: 500;   
+}
+
+#welcomeTo {
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: -30px;
+}
+
+#gawain {
+    color: #1B325F;
+}
+
+#description {
+    font-weight: 400;
+}
+
+/********************************
+ *      SIDEBAR COMPONENT       *
+ ********************************/
+
+.sidebar {
+    position: fixed;
+    height: 827px;
+    width: 250px;
+    color: #E9F2F9;
+    background-color: #1B325F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: -125px;
+    gap: 18px;
+}
+
+.sideTitle {
+    font-size: 65px;
+    line-height: 10px;
+    font-weight: 500;
+}
+
+.sideSubtitle {
+    font-size: 20px;
+    line-height: 0px;
+    font-weight: 500;
+    margin-top: -0.75em;
+    margin-left: 5.7em;
+}
+
+.sideProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+}
+
+.avatarImg {
+    width: 75px;
+}
+
+.profileName {
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 18px;
+}
+
+.profilerUsername {
+    color: #BABABA;
+    font-weight: 500;
+    margin-top: 1px;
+}
+
+.logout {
+    background: #A2ACB4;
+    border: 1px solid #898989;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Darker Grotesque';
+    font-weight: 700;
+    font-size: 16px;
+    width: 90px;
+    margin-top: 5px;
+}
+
+.sideStats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sideStats h3 {
+    margin-top: -30px;
+    font-weight: 10;
+}
+
+.allStats, .pendingStats, .completedStats {
+    width: 80px;
+}
+
+.sideMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeMenu, .todoMenu, .folderMenu, .settingsMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.sideMenuLogo {
+    width: 25px;
+    height: 25px;
+}
+
+.sideMenuLabel {
+    font-weight: 10;
+    line-height: 18px;
+    font-size: 22px;
+}
+
+.sideBottomMenu {
+    background-color: #091120;
+    height: 50px;
+}
+
+.contactLabel {
+    font-weight: 10;
+    line-height: 18px;
+    font-size: 22px;
+    /* padding: 5% 10%; */
+    color: #BABABA;
+}
