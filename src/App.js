@@ -1,11 +1,14 @@
 import './App.css';
+import Layout from './components/Layout';
 import TodoApp from './components/TodoApp';
 
 
 function App() {
   return (
     <div className="App">
-      <TodoApp />
+      {/* <Layout> */}
+        <TodoApp />
+      {/* </Layout> */}
     </div>
   );
 }

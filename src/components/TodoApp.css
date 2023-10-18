@@ -6,8 +6,6 @@
 }
 
 .leftPanel {
-    /* border: 5px black solid; */
-    
     flex: 1;
 }
 
@@ -77,7 +75,6 @@
 .fields {
     display: flex;
     flex-direction: column;
-    /* padding-top: 30px; */
     padding-bottom: 30px;
     justify-content: space-evenly;
     gap: 20px;
@@ -91,7 +88,6 @@ input {
     text-indent: 15px;
     font-family: 'Darker Grotesque';
     font-size: 18px;
-    /* padding: 1px 2px; */
 }
 
 .submit {
@@ -116,10 +112,8 @@ input {
  ********************************/
 
 .welcomeContainer {
-    position: absolute;
-    /* border: black solid 2px; */
     color: #59595A;
-    margin: 200px 400px;
+    margin: 200px 300px;
     padding: 35px 80px;
     width: 450px;
     background: #FFFFFF;
@@ -152,8 +146,8 @@ input {
  ********************************/
 
 .sidebar {
-    position: fixed;
-    height: 827px;
+    /* position: fixed; */
+    height: 100%;
     width: 250px;
     color: #E9F2F9;
     background-color: #1B325F;
@@ -165,7 +159,7 @@ input {
 .mainContent {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     margin-top: -125px;
     gap: 18px;
 }
@@ -267,7 +261,7 @@ input {
 
 .contactLabel {
     font-weight: 10;
-    line-height: 18px;
+    line-height: 8px;
     font-size: 22px;
     /* padding: 5% 10%; */
     color: #BABABA;
