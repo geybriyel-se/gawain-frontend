@@ -1,0 +1,121 @@
+.sidebar {
+    /* position: fixed; */
+    height: 100%;
+    width: 250px;
+    color: #E9F2F9;
+    background-color: #1B325F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: -125px;
+    gap: 18px;
+}
+
+.sideTitle {
+    font-size: 65px;
+    line-height: 10px;
+    font-weight: 500;
+}
+
+.sideSubtitle {
+    font-size: 20px;
+    line-height: 0px;
+    font-weight: 500;
+    margin-top: -0.75em;
+    margin-left: 5.7em;
+}
+
+.sideProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+}
+
+.avatarImg {
+    width: 75px;
+}
+
+.profileName {
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 18px;
+}
+
+.profilerUsername {
+    color: #BABABA;
+    font-weight: 500;
+    margin-top: 1px;
+}
+
+.logout {
+    background: #A2ACB4;
+    border: 1px solid #898989;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Darker Grotesque';
+    font-weight: 700;
+    font-size: 16px;
+    width: 90px;
+    margin-top: 5px;
+}
+
+.sideStats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sideStats h3 {
+    margin-top: -30px;
+    font-weight: 10;
+}
+
+.allStats, .pendingStats, .completedStats {
+    width: 80px;
+}
+
+.sideMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeMenu, .todoMenu, .folderMenu, .settingsMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.sideMenuLogo {
+    width: 25px;
+    height: 25px;
+}
+
+.sideMenuLabel {
+    font-weight: 10;
+    line-height: 18px;
+    font-size: 22px;
+}
+
+.sideBottomMenu {
+    background-color: #091120;
+    height: 50px;
+}
+
+.contactLabel {
+    font-weight: 10;
+    line-height: 8px;
+    font-size: 22px;
+    /* padding: 5% 10%; */
+    color: #BABABA;
+}

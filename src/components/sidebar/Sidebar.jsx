@@ -1,3 +1,4 @@
+import './Sidebar.css'
 
 export default function SidebarComponent() {
     return (
@@ -8,7 +9,7 @@ export default function SidebarComponent() {
             </div>
             <div className="mainContent">
                 <div className="sideProfile">
-                    <img className="avatarImg" src="/images/avatar.png"></img>
+                    <img className="avatarImg" src="/images/avatar.png" alt="avatar"></img>
                     <h3 className="profileName">Migo</h3>
                     <h4 className="profilerUsername">@migo-bansot</h4>
                     <button className="logout">Logout</button>
@@ -29,19 +30,19 @@ export default function SidebarComponent() {
                 </div>
                 <div className="sideMenu">
                     <div className="homeMenu">
-                        <img className="sideMenuLogo" src="/images/home-icon.png"></img>
+                        <img className="sideMenuLogo" src="/images/home-icon.png" alt="home"></img>
                         <h2 className="sideMenuLabel">Home</h2>
                     </div>
                     <div className="todoMenu">
-                        <img className="sideMenuLogo" src="/images/todo-icon.png"></img>
+                        <img className="sideMenuLogo" src="/images/todo-icon.png" alt="todo"></img>
                         <h2 className="sideMenuLabel">Your Todos</h2>
                     </div>
                     <div className="folderMenu">
-                        <img className="sideMenuLogo" src="/images/folder-icon.png"></img>
+                        <img className="sideMenuLogo" src="/images/folder-icon.png" alt="folder"></img>
                         <h2 className="sideMenuLabel">Folder</h2>
                     </div>
                     <div className="settingsMenu">
-                        <img className="sideMenuLogo" src="/images/settings-icon.png"></img>
+                        <img className="sideMenuLogo" src="/images/settings-icon.png" alt="settings"></img>
                         <h2 className="sideMenuLabel">Settings</h2>
                     </div>
                 </div>
