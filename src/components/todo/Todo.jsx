@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import './Todo.css'
 
 export default function Todo() {

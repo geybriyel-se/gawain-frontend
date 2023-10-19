@@ -13,7 +13,7 @@ export default function SidebarComponent() {
                     <img className="avatarImg" src="/images/avatar.png" alt="avatar"></img>
                     <h3 className="profileName">Migo</h3>
                     <h4 className="profilerUsername">@migo-bansot</h4>
-                    <button className="logout">Logout</button>
+                    <Link to='/logout' className='logout'>Logout</Link>
                 </div>
                 <div className="sideStats">
                     <div className="allStats">
