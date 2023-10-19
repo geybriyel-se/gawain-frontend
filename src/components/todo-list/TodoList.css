@@ -1,0 +1,85 @@
+.todoPage {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-left: 60px;
+    padding-right: 70px;
+}
+
+.todoPageHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.todoPageHeader h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 0;
+    color: #091120;
+}
+
+.todoPageHeader button {
+    font-weight: 800;
+    font-size: 18px;
+    height: 40px;
+}
+
+.todoPage hr {
+    width: 100%;
+    border: #BABABA solid;
+}
+
+.todoTable {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+    color: #59595A;
+}
+
+.todoTable td {
+    padding: 4px;
+}
+
+.todoTable .desc {
+    font-weight: 700;
+    text-align: left;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+.todoTable tr:nth-child(even) {
+    background-color: #DBE9F3;
+}
+
+.todoTable tr:nth-child(odd) {
+    background-color: #EBF3F9;
+}
+
+.todoTable img {
+    height: 20px;
+    text-align: right;
+}
+
+.todoEdit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.todoEdit h4 {
+    line-height: 0;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.editTodoButton {
+    background-color: transparent;
+    border: none;
+}
