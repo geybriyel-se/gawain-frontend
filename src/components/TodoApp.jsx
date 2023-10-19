@@ -3,6 +3,7 @@ import LoginComponent from "./login/Login";
 import WelcomeComponent from "./welcome/Welcome";
 import RouteWrapper from "./RouteWrapper"; // Import the new component
 import TodoList from "./todo-list/TodoList";
+import Todo from "./todo/Todo";
 
 export default function TodoApp() {
   return (
@@ -13,6 +14,7 @@ export default function TodoApp() {
           <Route path="/login" element={<RouteWrapper showSidebar={false}><LoginComponent /></RouteWrapper>} />
           <Route path="/welcome/:username" element={<RouteWrapper showSidebar={true}><WelcomeComponent /></RouteWrapper>} />
           <Route path="/list" element={<RouteWrapper showSidebar={true}><TodoList /></RouteWrapper>} />
+          <Route path="/todo" element={<RouteWrapper showSidebar={true}><Todo /></RouteWrapper>} />
         </Routes>
       </BrowserRouter>
     </div>

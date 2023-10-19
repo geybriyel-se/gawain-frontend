@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './TodoList.css'
 
 export default function TodoList() {
@@ -39,13 +40,13 @@ export default function TodoList() {
     ]
 
     return (
-        <div className="todoPage">
+        <div className="mainContentPage">
             <div className="todoPageHeader">
                 <div className="todoPageTitle">
                     <h1>ALL TODOS</h1>
                 </div>
                 <div className="addNewTodo">
-                    <button className="submit">+ Add New Todo</button>
+                    <Link className="submit addNew" to='/todo'>+ Add New Todo</Link>
                 </div>
             </div>
             <hr></hr>
