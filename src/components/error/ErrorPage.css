@@ -1,0 +1,28 @@
+.errorContent {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    height: 50%;
+    color: #1E1E1E;
+}
+
+.errorTitle {
+    font-size: 110px;
+    font-weight:900;
+    margin: 0;
+    letter-spacing: -0.01em;
+}
+
+.errorSubtitle {
+    font-size: 30px;
+    margin-top: 75px;
+}
+
+.errorCode {
+    font-size: 20px;
+    font-weight: 500;
+}
+
