@@ -4,7 +4,7 @@ import './Sidebar.css'
 export default function SidebarComponent() {
     return (
         <div className="sidebar">
-            <div className="sideLogo">
+            <div className="sidebarLogo">
                 <h1 className="sideTitle">gawain</h1>
                 <h2 className="sideSubtitle">by elle</h2>
             </div>

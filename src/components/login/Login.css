@@ -72,6 +72,11 @@
     font-size: 18px;
 }
 
+.loginErrorMessage {
+    color: #F26C4F;
+    font-weight: 700;
+}
+
 .fields {
     display: flex;
     flex-direction: column;
