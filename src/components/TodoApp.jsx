@@ -7,6 +7,7 @@ import Todo from "./todo/Todo";
 import Logout from "./logout/Logout";
 import ErrorPage from "./error/ErrorPage";
 import AuthProvider, { useAuth } from "./security/AuthContext";
+import Sandbox from "./Sandbox";
 
 function AuthenticatedRoute({ children }) {
   const authContext = useAuth()
@@ -60,6 +61,7 @@ export default function TodoApp() {
 
             <Route path="/logout" element={<RouteWrapper showSidebar={false}><Logout /></RouteWrapper>} />
             <Route path="/error" element={<RouteWrapper showSidebar={false}><ErrorPage /></RouteWrapper>} />
+            <Route path="/sandbox" element={<RouteWrapper showSidebar={true}><Sandbox /></RouteWrapper>} />
             <Route path="*" element={<RouteWrapper showSidebar={false}><ErrorPage /></RouteWrapper>} />
           </Routes>
         </BrowserRouter>

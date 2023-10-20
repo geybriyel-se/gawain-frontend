@@ -55,3 +55,8 @@ form {
     background: none;
     border: #F26C4F solid 2px;
 }
+
+.deleteButton:hover {
+    background-color: #F26C4F;
+    border: #F26C4F solid 2px;
+}

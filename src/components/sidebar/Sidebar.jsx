@@ -30,22 +30,26 @@ export default function SidebarComponent() {
                     </div>
                 </div>
                 <div className="sideMenu">
-                    <div className="homeMenu">
+                    <button className="homeMenu menuItems">
                         <img className="sideMenuLogo" src="/images/home-icon.png" alt="home"></img>
+                        <img className="sideMenuLogo hoverMenuIcon" src="/images/dark-home-icon.png" alt="home"></img>
                         <Link to='/welcome/Migo' className="sideMenuLabel">Home</Link>
-                    </div>
-                    <div className="todoMenu">
+                    </button>
+                    <button className="todoMenu menuItems">
                         <img className="sideMenuLogo" src="/images/todo-icon.png" alt="todo"></img>
+                        <img className="sideMenuLogo hoverMenuIcon" src="/images/dark-todo-icon.png" alt="todo"></img>
                         <Link to='/list' className="sideMenuLabel">Your Todos</Link>
-                    </div>
-                    <div className="folderMenu">
+                    </button>
+                    <button className="folderMenu menuItems">
                         <img className="sideMenuLogo" src="/images/folder-icon.png" alt="folder"></img>
+                        <img className="sideMenuLogo hoverMenuIcon" src="/images/dark-folder-icon.png" alt="folder"></img>
                         <Link to='' className="sideMenuLabel">Folder</Link>
-                    </div>
-                    <div className="settingsMenu">
+                    </button>
+                    <button className="settingsMenu menuItems">
                         <img className="sideMenuLogo" src="/images/settings-icon.png" alt="settings"></img>
+                        <img className="sideMenuLogo hoverMenuIcon" src="/images/dark-settings-icon.png" alt="settings"></img>
                         <Link to='' className="sideMenuLabel">Settings</Link>
-                    </div>
+                    </button>
                 </div>
             </div>
             <div className="sideBottomMenu">

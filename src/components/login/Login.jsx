@@ -22,8 +22,6 @@ export default function LoginComponent() {
     }
 
     function handleSubmit() {
-        console.log(username);
-        console.log(password);
         if (authContext.login(username, password)) {
             navigate(`/welcome/${username}`)
         } else {

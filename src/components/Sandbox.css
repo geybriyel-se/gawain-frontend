@@ -1,0 +1,17 @@
+.sandboxContainer {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.sandboxLink {
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.sandboxContainer:hover {
+    background-color: black;
+    color: red;
+}

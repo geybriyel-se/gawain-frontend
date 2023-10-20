@@ -55,7 +55,7 @@
 }
 
 .logout {
-    background: #A2ACB4;
+    background: #898989;
     border: 1px solid #898989;
     border-radius: 20px;
     color: #FFFFFF;
@@ -68,6 +68,12 @@
     text-decoration: none;
     display: inline-block;
     line-height: 16px;
+    transition-duration: 0.3s;
+}
+
+.logout:hover {
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
 }
 
 .sideStats {
@@ -90,17 +96,6 @@
     flex-direction: column;
 }
 
-.homeMenu, .todoMenu, .folderMenu, .settingsMenu {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-    margin-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .sideMenuLogo {
     width: 25px;
     height: 25px;
@@ -111,6 +106,46 @@
     font-size: 22px;
     color: #E9F2F9;
     text-decoration: none;
+}
+
+.menuItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: 'Darker Grotesque';
+    border: none;
+}
+
+.menuItems:hover, .menuItems:active { 
+    background-color:#E9F2F9;
+    color: #1B325F;
+}
+
+.menuItems:hover .sideMenuLabel { 
+    color: #1B325F;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.hoverMenuIcon {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s;
+    height: 30px;
+    width: 30px;
+}
+
+.menuItems:hover .hoverMenuIcon, .menuItems:active .hoverMenuIcon {
+    opacity: 1;
 }
 
 .sideBottomMenu {
