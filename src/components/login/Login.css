@@ -91,7 +91,7 @@ input {
     border-radius: 20px;
     border: none;
     text-indent: 15px;
-    font-family: 'Darker Grotesque';
+    font-family: 'Darker Grotesque - SemiBold';
     font-size: 18px;
 }
 
@@ -100,7 +100,7 @@ input {
     width: 175px;
     background: #1B325F;
     border-radius: 50px;
-    font-family: 'Darker Grotesque';
+    font-family: 'Darker Grotesque - Medium';
     color: #E9F2F9;
     font-size: 20px;
     border: none;
